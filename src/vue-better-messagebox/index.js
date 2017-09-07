@@ -4,7 +4,7 @@ import Confirm from './components/Confirm'
 import Toast from './components/Toast'
 
 
-import './css/style.less'
+import './css/style.styl'
 
 export{
 	Alert,

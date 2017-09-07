@@ -26,8 +26,8 @@ const config = {
     module: {
         rules: [
             {
-                test: /\.less$/,
-                use: ['style-loader', 'css-loader', 'postcss-loader', 'less-loader']
+                test: /\.styl$/,
+                use: ['style-loader', 'css-loader', 'postcss-loader', 'stylus-loader']
             },
             {
                 test: /\.css$/,
