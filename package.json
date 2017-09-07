@@ -1,6 +1,6 @@
 {
   "name": "vue-better-messagebox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "为vue mobile提供的仿原生iOS messagebox组件",
   "main": "index.js",
   "scripts": {

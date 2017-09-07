@@ -9,9 +9,9 @@ npm install vue-better-message --save
 ## 使用
 vue main.js 入口文件
 ```javascript
-import {Alert, Confirm, Toast} from 'vue-better-message'
+import {Alert, Confirm, Toast} from 'vue-better-messagebox'
 // 样式文件
-import 'vue-better-message/style.css'
+import 'vue-better-messagebox/style.css'
 
 // 使用该插件
 Vue.use(Alert, options)
