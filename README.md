@@ -14,9 +14,10 @@ import {Alert, Confirm, Toast} from 'vue-better-messagebox'
 import 'vue-better-messagebox/style.css'
 
 // 使用该插件
-Vue.use(Alert, options)
-Vue.use(Confirm, options)
-Vue.use(Toast, duration)
+
+Vue.use(Alert)
+Vue.use(Confirm)
+Vue.use(Toast)
 
 ```
 
