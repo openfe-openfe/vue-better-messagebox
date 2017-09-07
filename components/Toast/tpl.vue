@@ -1,4 +1,4 @@
-<style scoped lang="less">
+<style>
 	.messagebox-fade-enter {
 	  opacity: 0
 	}

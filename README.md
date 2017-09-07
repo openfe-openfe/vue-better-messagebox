@@ -3,7 +3,7 @@
 
 ## 安装
 ```js
-npm install vue-better-message --save
+npm install vue-better-messagebox --save
 ```
 
 ## 使用
