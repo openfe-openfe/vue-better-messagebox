@@ -43,7 +43,7 @@ Vue.use(Toast, duration)
 ```
 ## 效果图
 
-![image](https://github.com/songhaoreact/vue-better-message/blob/master/demo.png)
+![image](https://github.com/songhaoreact/vue-better-messagebox/blob/master/demo.gif)
 
 
 
