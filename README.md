@@ -41,7 +41,9 @@ Vue.use(Toast, duration)
 
 // 其他弹窗和方式和上面一样
 ```
+## 效果图
 
+![image](https://github.com/songhaoreact/vue-better-message/blob/master/demo.png)
 
 
 
