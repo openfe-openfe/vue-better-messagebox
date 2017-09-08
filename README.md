@@ -7,7 +7,8 @@ npm install songhao-vue-messagebox --save
 ```
 ## demo 演示
 ```js
-git clone
+git clone https://github.com/songhaoreact/vue-better-messagebox.git
+cd vue-better-messagebox
 npm install
 npm run dev
 ```
