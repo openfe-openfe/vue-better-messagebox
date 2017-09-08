@@ -4,6 +4,8 @@
   "description": "为vue mobile提供的仿原生iOS messagebox组件",
   "main": "index.js",
   "scripts": {
+    "dev": "node build/server.js",
+    "compile": "node build/compile.js && npm publish ./songhao-vue-messagebox"
   },
   "author": "songhao",
   "license": "MIT",

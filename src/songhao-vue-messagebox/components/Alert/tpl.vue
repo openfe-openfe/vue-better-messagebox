@@ -1,13 +1,13 @@
 <template>
-    <transition name="messagebox">
-        <div v-if="show" class="messagebox">
-            <div class="messagebox-popup messagebox-popup-in">
-                <div class="messagebox-popup-inner">
-                    <div class="messagebox-popup-title" v-if="title">{{title}}</div>
-                    <div class="messagebox-popup-text">{{content}}</div>
+    <transition name="songhao">
+        <div v-if="show" class="songhao">
+            <div class="songhao-popup songhao-popup-in">
+                <div class="songhao-popup-inner">
+                    <div class="songhao-popup-title" v-if="title">{{title}}</div>
+                    <div class="songhao-popup-text">{{content}}</div>
                 </div>
-                <div class="messagebox-popup-buttons">
-                    <span class="messagebox-popup-button messagebox-popup-button-bold" :style="btn.style" @click="success">
+                <div class="songhao-popup-buttons">
+                    <span class="songhao-popup-button songhao-popup-button-bold" :style="btn.style" @click="success">
                         {{btn.text}}
                     </span>
                 </div>
@@ -29,6 +29,8 @@
                     style: {}
                 }
             }
+        },
+        mounted () {
         },
         methods: {
             success () {

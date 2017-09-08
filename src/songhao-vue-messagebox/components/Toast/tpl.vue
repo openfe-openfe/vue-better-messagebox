@@ -1,19 +1,19 @@
 <style>
-	.messagebox-fade-enter {
+	.songhao-fade-enter {
 	  opacity: 0
 	}
-	.messagebox-fade-enter-active, .messagebox-fade-leave-active {
+	.songhao-fade-enter-active, .songhao-fade-leave-active {
 	  transition: opacity .4s
 	}
-	.messagebox-fade-leave-active {
+	.songhao-fade-leave-active {
 		opacity: 0;
 	}
 
 </style>
 <template>
-	<transition name="messagebox-fade">
-		<div class="messagebox-toast" v-if="show">
-			<div class="messagebox-toast-message">
+	<transition name="songhao-fade">
+		<div class="songhao-toast" v-if="show">
+			<div class="songhao-toast-message">
 				{{content}}
 			</div>
 		</div>
