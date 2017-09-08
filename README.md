@@ -3,7 +3,7 @@
 
 ## 安装
 ```js
-npm install vue-better-messagebox --save
+npm install songhao-vue-message --save
 ```
 
 ## 使用
