@@ -5,7 +5,12 @@
 ```js
 npm install songhao-vue-messagebox --save
 ```
-
+## demo 演示
+```js
+git clone
+npm install
+npm run dev
+```
 ## 使用
 vue main.js 入口文件
 ```javascript

@@ -3,7 +3,11 @@
     margin:0;
     padding:0;
   }
-
+.container{
+  padding-top:200px;
+  display:flex;
+  justify-content:center
+}
 button{
     position: relative;
     display: inline-block;
@@ -34,17 +38,26 @@ button{
     -webkit-transition-duration: .2s;
     transition-duration: .2s;
     color: #fff;
-    background-color: #007aff;
-    border: 1px solid #007aff;
+    background-color: #47c9bc;
+    border: 1px solid #47c9bc;
 }
 
 
 </style>
 <template>
   <div id="app">
-  	<button @click="alert">Alert</button>
-    <button @click="confirm">Confirm</button>
-    <button @click="toast">Toast</button>
+  <div class="container">
+      <div>	
+        <button @click="alert">Alert</button>
+      </div>
+      <div>
+        <button @click="confirm">Confirm</button>
+      </div>
+      <div>
+        <button @click="toast">Toast</button>
+      </div>
+    
+  </div>
 
   </div>
 </template>
@@ -59,7 +72,7 @@ button{
     },
     methods: {
       alert () {
-        this.$alert('欢迎使用 songhao-messagebox', {
+        this.$alert('欢迎使用 songhao-vue-messagebox', {
           title: '提示',
           btn: {
             text: '确定'
@@ -70,10 +83,10 @@ button{
         })
       },
       confirm () {
-        this.$confirm('欢迎使用 songhao-messagebox', {
+        this.$confirm('欢迎使用 songhao-vue-messagebox', {
           title: '提示',
           style: {
-            'font-size': '12px'
+            'font-size': '16px'
           },
           yes: {
             text: '新按钮',
@@ -90,7 +103,7 @@ button{
           })
       },
       toast () {
-        this.$toast('恭喜您, 登录成功!', 2000);
+        this.$toast('this is a toast!', 2000);
       }
     }
   }
