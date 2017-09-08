@@ -3,13 +3,15 @@
 
 ## 安装
 ```js
-npm install songhao-vue-message --save
+npm install songhao-vue-messagebox --save
 ```
 
 ## 使用
 vue main.js 入口文件
 ```javascript
 import {Alert, Confirm, Toast} from 'songhao-vue-messagebox'
+// // 样式文件
+import 'songhao-vue-messagebox/style.css'
 
 // 使用该插件
 
@@ -17,8 +19,6 @@ Vue.use(Alert)
 Vue.use(Confirm)
 Vue.use(Toast)
 
-// 使用样式文件
-import 'songhao-vue-messagebox/style.css'
 ```
 
 ## 使用
