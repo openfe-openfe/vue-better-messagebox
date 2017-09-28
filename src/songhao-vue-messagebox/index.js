@@ -8,6 +8,5 @@ import './css/style.styl'
 export{
 	Alert,
 	Confirm,
-	Toast,
-	Prompt
+	Toast
 }
