@@ -44,8 +44,8 @@ let Alert = (content, options = {}) => {
     });
 }
 export default {
-    install (Vue, options={}) {
-        globalConfig = options;
+    install (Vue) {
+        // globalConfig = options;
         Vue.prototype.$alert = Alert;
     }
 };
